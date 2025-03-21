@@ -1,0 +1,88 @@
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #7f81d1;
+   background-size: cover;
+}
+.innerwrap{
+    width: 70%;
+    height: 30%;
+    background-color: rgb(215, 212, 212);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.input{
+    width: 74%;
+    height: 95%;
+    border: 1px solid black;
+}
+button{
+    width:20%;
+    height: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #7f81d1;
+    color: white;
+   
+}
+.inputhold{
+    width: 70%;
+    height: 24%;
+    display: flex;
+    justify-content: space-around;
+}
+.render{
+    width: 100%;
+    height: 100vh;
+    background-color: #8182bd;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 430px) {
+    .innerwrap{
+        width: 90%;
+        height: 30%;
+        background-color: rgb(215, 212, 212);
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        h1{
+            font-size: 20px;
+        }
+    }
+
+    .input{
+        width: 74%;
+        height: 95%;
+        border: 1px solid black;
+    }
+    button{
+        width:20%;
+        height: 100%;
+        border: 1px solid black;
+        cursor: pointer;
+        background-color: #7f81d1;
+        color: white;
+       
+    }
+    .inputhold{
+        width: 80%;
+        height: 24%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
