@@ -15,7 +15,7 @@ const Weatherload = () => {
 
             <div className='sunny'>
                 <h2>Sunny</h2>
-                <img src="public/sunny.png" alt="" />
+                <img src="sunny.png" alt="" />
             </div>
             <div className='windspeed'>
                 <h2>Wind Speed:3km/h</h2>
